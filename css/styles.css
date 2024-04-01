@@ -935,7 +935,7 @@ a {
     .list-header {
         font-size: 36px;
         font-weight: 700;
-        text-align: center;
+    
     }
 
     .third-section-list {
@@ -1103,6 +1103,7 @@ a {
 
     .page-title {
         font-size: 56px;
+        max-width: 496px;
     }
 
     .second-section {
