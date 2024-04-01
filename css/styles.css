@@ -139,7 +139,6 @@ a {
     color: #404bbf;
 }
 
-/* --- mobile.menu hamburger --- */
 
 .icon-ham {
     fill: #2f2f37;
@@ -233,7 +232,7 @@ a {
 .first-section {
     background-color: #2e2f42;
     padding: 72px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img11.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-m11.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
@@ -319,7 +318,6 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    margin-top: 8px;
     text-align: center;
 }
 
@@ -550,7 +548,6 @@ a {
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
-    display: block;
     text-align: center;
 }
 
@@ -910,7 +907,7 @@ a {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/img11.jpg);
+            url(../images/img-t11.jpg);
         max-width: 768px;
         padding: 112px 0;
     }
@@ -938,7 +935,7 @@ a {
     .list-header {
         font-size: 36px;
         font-weight: 700;
-        text-align: center;
+        text-align: right;
     }
 
     .third-section-list {
@@ -1099,9 +1096,13 @@ a {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/img11.jpg);
+            url(../images/img-d11.jpg);
         max-width: 1440px;
         padding: 188px 0;
+    }
+
+    .page-title {
+        font-size: 56px;
     }
 
     .second-section {
@@ -1192,6 +1193,10 @@ a {
         text-align: left;
     }
 
+    .sm-footer-title {
+        align-items: left;
+    }
+
     .sub-input {
         opacity: 1;
     }
@@ -1224,7 +1229,7 @@ a {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/img11x2.jpg);
+            url(../images/img-m11x2.jpg);
     }
 }
 
@@ -1232,13 +1237,13 @@ a {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/img11x2.jpg);
+            url(../images/img-t11x2.jpg);
     }
 }
 
 @media (min-width: 1158px) and (min-resolution: 192dpi) {
     .first-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url(../images/img11x2.jpg);
+            url(../images/img-d11x2.jpg);
     }
 }
